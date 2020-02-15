@@ -1,80 +1,136 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <title>Weather app</title>
-  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="stylesheet" href="style.css" />
+
 </head>
+
 <body>
-  <div id="Head">
+
+  <!-- <div id="Head">
+
     <header id="main-header">
+
       <div class="container">
+
         <h1 id="mainH"><a href="#" id="Logo">Potatotiser</a><img src="images/logo.JPG"></h1>
+
       </div>
+
     </header>
 
+
+
     <nav id="navbar">
+
       <div class="container">
+
         <ul>
+
           <li style="background-color: gray;"><a href="#">Home</a></li>
+
           <li><a href="#">Team</a></li>
+
           <li><a href="#">Commitment</a></li>
+
           <li><a href="#">Achievements</a></li>
+
           <li><a href="#">blog</a></li>
+
           <li><a href="#">Contact</a></li>
+
           <li><a href="#">Log In</a></li>
+
         </ul>
+
       </div>
+
     </nav>
-    </div> 
+
+    </div>  -->
+
   <div class="app-wrap">
+
     <header>
+
       <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+
     </header>
+
     <main>
+
       <section class="location">
+
         <div class="city">Northampton, GB</div>
+
         <div class="date">Thursday 10 January 2020</div>
+
       </section>
+
       <div class="current">
+
         <div class="temp">15<span>°c</span></div>
+
         <div class="weather">Sunny</div>
+
         <div class="hi-low">13°c / 16°c</div>
+
       </div>
+
     </main>
+
   
+
     <main class="divide">
+
         <section class="location">
-          <div class="past">Past Condition</div>
+
+          <div class="past">Predicted Condition</div>
+
           <br>
+
         </section>
+
         <div class="current">
+
           Average Temperature : <div class="weather avg"></div>
+
           Highest Temperature : <div class="weather high"></div>
+
           Lowest Temperature : <div class="weather low"></div>
+
           Windspeed : <div class="weather speed"></div>
+
         </div>
+
       </main>
-      <main class="divide">
-        <section class="location">
-          <div class="future">Future Conditions (Predicted)</div>
-          <br>
-        </section>
-        <div class="current">
-          Average Temperature : <div class="weather avgp"></div>
-          Highest Temperature : <div class="weather highp"></div>
-          Lowest Temperature : <div class="weather lowp"></div>
-          Windspeed : <div class="weather speedp"></div>
-        </div>
-      </main>
-      
+
   </div>
+  <div class = "map">
+    <img class = "mapping" url="" alt="mistake">
+  </div>
+
   
+
   <script src="main.js"></script>
+
   <footer id="main-footer">
+
     <p>Copyright &copy; 2020 CodeDiggerz</p>
+
   </footer>
+
 </body>
+
 </html>
